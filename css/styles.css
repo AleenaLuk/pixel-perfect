@@ -1,0 +1,52 @@
+/* /////////////////////// GENERAL /////////*/
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* /////////////////////////////////////////////////////////////// HEADER /////////*/
+
+header {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+header, header ul {
+  display: flex;
+}
+
+header .nav-right {
+  margin-left: auto;
+}
+
+header a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 22px 30px;
+  text-decoration: none;
+}
+
+/* /////////////////////////////////////////////////////////////// MAIN CONTENT /////////*/
+
+.content {
+  display: flex;
+}
+
+.content > * {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.articles {
+  flex-grow: 2;
+}
